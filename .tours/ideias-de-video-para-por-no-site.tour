@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "ideias de video para por no site",
+  "steps": [
+    {
+      "file": "src/index.html",
+      "description": "fazer uma edição de como trabalhamos ou de sites criados algo do tipo",
+      "line": 403
+    }
+  ]
+}

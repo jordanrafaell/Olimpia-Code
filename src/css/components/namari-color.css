@@ -53,10 +53,13 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Transparent Navigation Color on a Banner */
 
-#header nav a, #header i {
-    color: #111;
+#header nav a {
+    color: #fbff00;
 }
 
+#header i {
+    color: rgb(255, 255, 255);
+}
 
 /* Navigation Colors when the Navigation is sticky and solid */
 
@@ -274,22 +277,24 @@ h6 {
 
 #banner .button {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 16px;
-    color: #111;
+    font-size: 18px;
+    text-shadow: 1px 1px 10px black;
+    color: #ffffff;
 }
 
 
 /* Button Color */
 
 #banner .button {
-    border-color: #111;
+    border-color: #fff200;
 }
 
 
 /* Button Hover Color */
 
 #banner .button:hover {
-    color: #d2b356;
+    color: #fffb00;
+    text-shadow: 1px 1px 10px black;
     border-color: #d2b356;
 }
 
@@ -300,9 +305,10 @@ h6 {
 
 #landing-footer, #landing-footer p, #landing-footer a {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 12px;
-    font-weight: normal;
-    color: #999;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 1px 1px 10px rgb(255, 255, 255);
 }
 
 /* Footer Icon Color */

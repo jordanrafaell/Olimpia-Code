@@ -1,0 +1,11 @@
+/*Importação de todos os estilos*/
+@import '/src/css/components/animate.css';
+@import '/src/css/components/clientes.css';
+@import '/src/css/components/galeria.css';
+@import '/src/css/components/header.css';
+@import '/src/css/components/namari-color.css';
+@import '/src/css/components/planos.css';
+@import '/src/css/components/servicos.css';
+@import '/src/css/components/sobre.css';
+@import '/src/css/components/style.css';
+@import '/src/css/components/testemunhas.css';
