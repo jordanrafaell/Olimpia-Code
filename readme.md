@@ -16,7 +16,7 @@ Somos uma empresa dedicada a criar soluções digitais inovadoras, incluindo sit
 
 ### Website
 
-Visite nosso [site](https://olimpia-code.vercel.app/) para obter mais informações sobre nossos serviços.
+Visite nosso [site](https://jordanrafaell.github.io/Olimpia-Code/) para obter mais informações sobre nossos serviços.
 
 ### Contato
 
