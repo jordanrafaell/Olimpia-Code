@@ -1,6 +1,6 @@
-# Nome da Empresa
+# Olimpia Code
 
-![Logo da Empresa](link_para_logo.png)
+![Logo da Empresa](https://github.com/jordanrafaell/Olimpia-Code/assets/61181764/63515dd5-124f-4f52-9d6d-54af535cd0ac)
 
 ## Sobre a Empresa
 
@@ -16,7 +16,7 @@ Somos uma empresa dedicada a criar soluções digitais inovadoras, incluindo sit
 
 ### Website
 
-Visite nosso [site](https://www.exemplo.com) para obter mais informações sobre nossos serviços.
+Visite nosso [site](https://olimpia-code.vercel.app/) para obter mais informações sobre nossos serviços.
 
 ### Contato
 
@@ -26,9 +26,7 @@ Entre em contato conosco por e-mail: [contato@exemplo.com](mailto:contato@exempl
 
 Siga-nos nas redes sociais para ficar atualizado sobre nossos projetos e notícias:
 
-- [Facebook](https://www.facebook.com/exemplo)
-- [Twitter](https://twitter.com/exemplo)
-- [LinkedIn](https://www.linkedin.com/company/exemplo)
+- [Instagram](https://www.instagram.com/olimpiacodetech/)
 
 ## Projetos Destacados
 
@@ -38,12 +36,8 @@ Siga-nos nas redes sociais para ficar atualizado sobre nossos projetos e notíci
 
 ## Como Contribuir
 
-Estamos abertos a contribuições e sugestões. Se você estiver interessado em colaborar, consulte nosso [Guia de Contribuição](CONTRIBUTING.md) para obter mais informações.
+Estamos abertos a contribuições e sugestões. Se você estiver interessado em colaborar, consulte nossa rede social para obter mais informações.
 
 ## Licença
 
-Este projeto é licenciado sob a [Licença MIT](LICENSE.md) - veja o arquivo [LICENSE.md](LICENSE.md) para detalhes.
-
----
-
-**Nota:** Lembre-se de substituir os espaços reservados (como `Nome da Empresa`, `link_para_logo.png`, `https://www.exemplo.com`, etc.) com informações reais e pertinentes à sua empresa. Este README é apenas um exemplo básico, e você pode ajustá-lo de acordo com as necessidades e características específicas da sua empresa.
+Este projeto é licenciado sob a [Licença MIT]
