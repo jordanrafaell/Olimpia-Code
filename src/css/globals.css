@@ -1,4 +1,4 @@
 /*Importação de todos os estilos*/
-@import '/src/css/components/animate.css';
-@import '/src/css/components/namari-color.css';
-@import '/src/css/components/style.css';
+@import '/src/css/animate.css';
+@import '/src/css/namari-color.css';
+@import '/src/css/style.css';
