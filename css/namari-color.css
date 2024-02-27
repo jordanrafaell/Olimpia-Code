@@ -13,19 +13,19 @@
 /* 1. Website Default Styling */
 /*------------------------------------------------------------------------------------------*/
 
-
 body {
     background: #fff;
 }
 
-
 /* Default Link Color */
 
-a, .la-ball-triangle-path {
+a,
+.la-ball-triangle-path {
     color: #d2b356;
 }
 
-a:hover, #header.nav-solid nav a:hover {
+a:hover,
+#header.nav-solid nav a:hover {
     color: #d2b356;
 }
 
@@ -37,7 +37,8 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Border Color */
 
-#banner .section-heading:before, .testimonial.classic footer:before {
+#banner .section-heading:before,
+.testimonial.classic footer:before {
     background: #d2b356;
 }
 
@@ -45,11 +46,9 @@ a:hover, #header.nav-solid nav a:hover {
     border-color: #d2b356;
 }
 
-
 /*------------------------------------------------------------------------------------------*/
 /* 2. Navigation */
 /*------------------------------------------------------------------------------------------*/
-
 
 /* Transparent Navigation Color on a Banner */
 
@@ -63,10 +62,12 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Navigation Colors when the Navigation is sticky and solid */
 
-#header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
+#header.nav-solid,
+#header.nav-solid a,
+#header.nav-solid i,
+#nav-mobile ul li a {
     color: #333;
 }
-
 
 /* Navigation Active State */
 
@@ -75,26 +76,28 @@ a:hover, #header.nav-solid nav a:hover {
     border-color: #d2b356;
 }
 
-
-
 /*------------------------------------------------------------------------------------------*/
 /* 3. Primary and Secondary Colors */
 /*------------------------------------------------------------------------------------------*/
 
-
 /* Primary Background and Text Colors */
 
-.primary-color, .featured .pricing {
+.primary-color,
+.featured .pricing {
     background-color: #d2b356;
 }
 
-.primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
+.primary-color,
+.primary-color .section-title,
+.primary-color .section-subtitle,
+.featured .pricing,
+.featured .pricing p {
     color: #fff;
 }
 
 .section-heading h2:after {
     background: #d2b356;
-    content: "";
+    content: '';
     display: block;
     width: 30px;
     height: 5px;
@@ -107,10 +110,10 @@ a:hover, #header.nav-solid nav a:hover {
 
 /* Primary Icon Colors */
 
-.primary-color .icon i, .primary-color i {
+.primary-color .icon i,
+.primary-color i {
     color: #fff;
 }
-
 
 /* Secondary Background and Text Colors */
 
@@ -118,24 +121,20 @@ a:hover, #header.nav-solid nav a:hover {
     background-color: #f5f5f5;
 }
 
-
 /*------------------------------------------------------------------------------------------*/
 /* 4. Banner */
 /*------------------------------------------------------------------------------------------*/
 
-
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("/images/banner-images/banner.svg") no-repeat center top;
+    background: url('/images/banner-images/banner.svg') no-repeat center top;
     background-size: cover;
 }
 
-@med
 /*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
 /*------------------------------------------------------------------------------------------*/
-
 
 body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
@@ -147,22 +146,39 @@ body {
 /* Banner Typography */
 
 #banner h1 {
+    width: 600px;
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 62px;
+    font-size: clamp(40px, 5vw, 62px);
     line-height: 60px;
     font-weight: 800;
     color: #ffc800;
+    position: relative;
+    top: 6px;
+}
+
+#banner .title_logo_h {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+    font-size: clamp(40px, 5vw, 62px);
+    line-height: 60px;
+    font-weight: 800;
+    color: #ffc800;
+    position: relative;
+    top: 6px;
 }
 
 #banner h2 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 20px;
+    font-size: clamp(16px, 2vw, 20px);
     font-weight: 900;
     line-height: 35px;
     text-shadow: 1px 1px 5px rgb(0, 0, 0);
     color: #ffffff;
 }
 
+.cell_responsivo {
+    display: none;
+}
 
 /* Section Title and Subtitle */
 
@@ -188,10 +204,10 @@ body {
     font-weight: 300;
 }
 
-.testimonial.classic q, .testimonial.classic footer {
+.testimonial.classic q,
+.testimonial.classic footer {
     color: #111;
 }
-
 
 /* Standard Headings h1-h6 */
 
@@ -237,41 +253,38 @@ h6 {
     color: #111;
 }
 
-
 /*------------------------------------------------------------------------------------------*/
 /* 6. Buttons */
 /*------------------------------------------------------------------------------------------*/
 
 /* ----------Default Buttons---------- */
 
-
 /* Button Text */
 
-.button, input[type="submit"] {
+.button,
+input[type='submit'] {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 14px;
     font-weight: bold;
     color: #111;
 }
 
-
 /* Button Color */
 
-.button, input[type="submit"] {
+.button,
+input[type='submit'] {
     border-color: #111;
 }
 
-
 /* Button Hover Color */
 
-.button:hover, input[type="submit"]:hover {
+.button:hover,
+input[type='submit']:hover {
     border-color: #d2b356;
     color: #d2b356;
 }
 
-
 /* ----------Banner Buttons---------- */
-
 
 /* Button Text */
 
@@ -282,13 +295,11 @@ h6 {
     color: #ffffff;
 }
 
-
 /* Button Color */
 
 #banner .button {
     border-color: #fff200;
 }
-
 
 /* Button Hover Color */
 
@@ -298,12 +309,13 @@ h6 {
     border-color: #d2b356;
 }
 
-
 /*------------------------------------------------------------------------------------------*/
 /* 7. Footer */
 /*------------------------------------------------------------------------------------------*/
 
-#landing-footer, #landing-footer p, #landing-footer a {
+#landing-footer,
+#landing-footer p,
+#landing-footer a {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 16px;
     font-weight: bold;
@@ -315,4 +327,264 @@ h6 {
 
 #landing-footer i {
     color: #999;
+}
+
+
+/* Ajuste para telas menores (como celulares) */
+
+@media (max-width: 1104px) and (min-width: 884px) {
+    #banner h1 {
+        width: 100%;
+        max-width: 380px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(30px, 5vw, 62px);
+        font-weight: 800;
+        color: #ffc800;
+    }
+
+
+    .cell_responsivo {
+        display: none;
+    }
+
+    #banner h2 {
+        display: flex;
+        width: 500px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(20px, 2vw, 20px);
+        font-weight: 900;
+        text-shadow: 1px 1px 5px rgb(0, 0, 0);
+        color: #ffffff;
+    }
+
+    #banner .button {
+        position: relative;
+        bottom: 15px;
+    }
+}
+
+@media (max-width: 884px) and (min-width: 834px) {
+    .cell_responsivo {
+        display: none;
+    }
+}
+
+@media (max-width: 834px) and (min-width: 800px) {
+    #banner h1 {
+        width: 100%;
+        max-width: 380px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(30px, 5vw, 62px);
+        font-weight: 800;
+        color: #ffc800;
+    }
+
+
+    .cell_responsivo {
+        display: none;
+    }
+
+    #banner h2 {
+        display: flex;
+        width: 500px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(20px, 2vw, 20px);
+        font-weight: 900;
+        text-shadow: 1px 1px 5px rgb(0, 0, 0);
+        color: #ffffff;
+    }
+
+    #banner .button {
+        position: relative;
+        bottom: 15px;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 768px) {
+    #banner h1 {
+        width: 100%;
+        max-width: 400px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(30px, 5vw, 62px);
+        font-weight: 800;
+        color: #ffc800;
+    }
+
+
+    .cell_responsivo {
+        display: none;
+    }
+
+    #banner h2 {
+        display: flex;
+        width: 500px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(20px, 2vw, 20px);
+        font-weight: 900;
+        text-shadow: 1px 1px 5px rgb(0, 0, 0);
+        color: #ffffff;
+    }
+
+    #banner .button {
+        position: relative;
+        bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 430px) {
+    #banner h1 {
+        width: 100%;
+        max-width: 400px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(30px, 5vw, 62px);
+        font-weight: 800;
+        color: #ffc800;
+    }
+
+
+    .cell_responsivo {
+        display: none;
+    }
+
+    #banner h2 {
+        display: flex;
+        width: 500px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(20px, 2vw, 20px);
+        font-weight: 900;
+        text-shadow: 1px 1px 5px rgb(0, 0, 0);
+        color: #ffffff;
+    }
+
+    #banner .button {
+        position: relative;
+        bottom: 15px;
+    }
+}
+
+@media (max-width: 430px) and (min-width: 375px) {
+    #banner {
+        background: url('/images/banner-images/banner.svg') no-repeat center top;
+        background-size: contain;
+    }
+
+    #banner h1 {
+        width: 100%;
+        max-width: 280px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(30px, 5vw, 62px);
+        font-weight: 800;
+        color: #ffc800;
+    }
+
+
+    .cell_responsivo {
+        display: flex;
+        width: 100%;
+        max-width: 500px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(20px, 2vw, 20px);
+        font-weight: 900;
+        text-shadow: 1px 1px 5px rgb(0, 0, 0);
+        color: #ffffff;
+    }
+
+    #banner h2 {
+        display: none;
+        width: 500px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(20px, 2vw, 20px);
+        font-weight: 900;
+        text-shadow: 1px 1px 5px rgb(0, 0, 0);
+        color: #ffffff;
+    }
+
+    #banner .button {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) and (min-width: 330px) {
+    #banner {
+        background: url('/images/banner-images/banner.svg') no-repeat center top;
+        background-size: contain;
+    }
+
+    #banner h1 {
+        width: 100%;
+        max-width: 280px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(30px, 5vw, 62px);
+        font-weight: 800;
+        color: #ffc800;
+    }
+
+
+    .cell_responsivo {
+        display: flex;
+        width: 100%;
+        max-width: 500px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(20px, 2vw, 20px);
+        font-weight: 900;
+        text-shadow: 1px 1px 5px rgb(0, 0, 0);
+        color: #ffffff;
+    }
+
+    #banner h2 {
+        display: none;
+        width: 500px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(20px, 2vw, 20px);
+        font-weight: 900;
+        text-shadow: 1px 1px 5px rgb(0, 0, 0);
+        color: #ffffff;
+    }
+
+    #banner .button {
+        display: none;
+        ;
+    }
+}
+
+@media (max-width: 320px) and (min-width: 100px) {
+    #banner {
+        background: url('/images/banner-images/banner.svg') no-repeat center top;
+        background-size: contain;
+    }
+
+    #banner h1 {
+        width: 100%;
+        max-width: 380px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(25px, 5vw, 62px);
+        font-weight: 900;
+        color: #ffc800;
+    }
+
+
+    .cell_responsivo {
+        display: flex;
+        width: 100%;
+        max-width: 500px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(20px, 2vw, 20px);
+        font-weight: 900;
+        text-shadow: 1px 1px 5px rgb(0, 0, 0);
+        color: #ffffff;
+    }
+
+    #banner h2 {
+        display: none;
+        width: 500px;
+        font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+        font-size: clamp(20px, 2vw, 20px);
+        font-weight: 900;
+        text-shadow: 1px 1px 5px rgb(0, 0, 0);
+        color: #ffffff;
+    }
+
+    #banner .button {
+        display: none;
+    }
 }
