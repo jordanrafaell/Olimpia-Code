@@ -310,24 +310,6 @@ input[type='submit']:hover {
 }
 
 /*------------------------------------------------------------------------------------------*/
-/* 7. Footer */
-/*------------------------------------------------------------------------------------------*/
-
-#landing-footer,
-#landing-footer p,
-#landing-footer a {
-    font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size: 16px;
-    font-weight: bold;
-    color: #000000;
-    text-shadow: 1px 1px 10px rgb(255, 255, 255);
-}
-
-/* Footer Icon Color */
-
-#landing-footer i {
-    color: #999;
-}
 
 
 /* Ajuste para telas menores (como celulares) */
