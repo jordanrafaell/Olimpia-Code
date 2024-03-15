@@ -1589,7 +1589,7 @@ blockquote {
 
 
 @media (max-width: 1024px) and (min-width: 0px) {
-    .container_img img {
+        .container_img img {
         display: none;
     }
 
@@ -1619,6 +1619,8 @@ blockquote {
         margin-top: 20px;
         width: 100%;
     }
+}
+
 
     /*------------------------------------------------------------------------------------------*/
     /* 7. Footer */
