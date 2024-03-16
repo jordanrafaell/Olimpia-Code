@@ -13,7 +13,7 @@ $(document).ready(function () {
 
 	/*Responsive Navigation*/
 	$("#nav-mobile").html($("#nav-main").html());
-	$("#nav-trigger span").on("click",function() {
+	$("#nav-trigger span").on("click", function () {
 		if ($("nav#nav-mobile ul").hasClass("expanded")) {
 			$("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
 			$(this).removeClass("open");
@@ -24,7 +24,7 @@ $(document).ready(function () {
 	});
 
 	$("#nav-mobile").html($("#nav-main").html());
-	$("#nav-mobile ul a").on("click",function() {
+	$("#nav-mobile ul a").on("click", function () {
 		if ($("nav#nav-mobile ul").hasClass("expanded")) {
 			$("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
 			$("#nav-trigger span").removeClass("open");
@@ -39,8 +39,7 @@ $(document).ready(function () {
 	$('#content').waypoint(function (direction) {
 		if (direction === 'down') {
 			$('#header').addClass('nav-solid fadeInDown');
-		}
-		else {
+		} else {
 			$('#header').removeClass('nav-solid fadeInDown');
 		}
 	});
@@ -52,7 +51,9 @@ $(document).ready(function () {
 $(window).load(function () { // makes sure the whole site is loaded
 	$('#status').fadeOut(); // will first fade out the loading animation
 	$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-	$('body').delay(350).css({'overflow-y': 'visible'});
+	$('body').delay(350).css({
+		'overflow-y': 'visible'
+	});
 
 	/* WOW Elements */
 	if (typeof WOW == 'function') {
